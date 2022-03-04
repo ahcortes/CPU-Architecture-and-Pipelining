@@ -1,0 +1,152 @@
+ld0 12
+lut r0 r0
+mov r1 r0
+ld0 0
+mov r2 r0
+cmp r2 r1
+bge 10
+ld0 0
+str r0 r2
+ld0 1
+add r2 r0
+brn 11
+ld0 15
+lut r0 r0
+mov r1 r0
+ld0 12
+lut r0 r0
+ldr r2 r0
+xor r1 r2
+ld0 17
+lut r0 r0
+str r1 r0
+ld0 19
+lut r0 r0
+mov r2 r0
+ld0 0
+mov r1 r0
+cmp r1 r2
+bge 4
+ld0 17
+lut r0 r0
+ldr r2 r0
+ld0 18
+lut r0 r0
+str r2 r0
+ld0 0
+mov r2 r0
+ld0 10
+cmp r2 r0
+bge 5
+ld0 20
+lut r0 r0
+str r2 r0
+lut r3 r1
+ld0 21
+lut r0 r0
+str r3 r0
+ld0 15
+lut r3 r0
+ld0 18
+lut r0 r0
+ldr r0 r0
+xor r3 r0
+rxr r2 r3
+ld0 7
+lsl r2 r0
+xor r3 r2
+ld0 20
+lut r0 r0
+ldr r2 r0
+ld0 12
+lut r0 r0
+add r0 r2
+ldr r0 r0
+cmp r3 r0
+bne 5
+ld0 18
+lut r0 r0
+ldr r2 r0
+ld0 21
+lut r0 r0
+ldr r3 r0
+ld0 1
+lsl r2 r0
+ld0 18
+lut r0 r0
+ldr r0 r0
+and r3 r0
+rxr r3 r3
+orr r2 r3
+ld0 18
+lut r0 r0
+str r2 r0
+ld0 20
+lut r0 r0
+ldr r2 r0
+ld0 1
+add r2 r0
+ld0 20
+lut r0 r0
+str r2 r0
+ld0 10
+brn 6
+ld0 9
+mov r2 r0
+ld0 1
+add r1 r0
+ld0 20
+lut r0 r0
+ldr r3 r0
+ld0 10
+cmp r3 r0
+bne 7
+ld0 0
+mov r1 r0
+ld0 12
+lut r0 r0
+cmp r1 r0
+bge 8
+ld0 22
+lut r0 r0
+str r1 r0
+ld0 12
+lut r0 r0
+add r1 r0
+ldr r2 r1
+ld0 23
+lut r0 r0
+and r2 r0
+ld0 17
+lut r0 r0
+ldr r0 r0
+xor r2 r0
+ld0 22
+lut r0 r0
+ldr r1 r0
+str r2 r1
+ld0 17
+lut r0 r0
+ldr r2 r0
+ld0 21
+lut r0 r0
+ldr r3 r0
+ld0 1
+lsl r2 r0
+ld0 17
+lut r0 r0
+ldr r0 r0
+and r3 r0
+rxr r3 r3
+orr r2 r3
+ld0 17
+lut r0 r0
+str r2 r0
+ld0 22
+lut r0 r0
+ldr r1 r0
+ld0 1
+add r1 r0
+ld0 12
+lut r0 r0
+brn 9
